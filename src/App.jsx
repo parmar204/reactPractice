@@ -13,6 +13,7 @@ import QrCode from './QrCode generator/QrCode'
 import RSPGame from './RPS Game/RPSGame'
 import Typing from './Typing speed tester/Typing'
 import Paragraph from './Random Paragraph Generator/Paragraph'
+import TicTacToe from './TicTacToe/TicTacToe'
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
       <Route path='/rsp' element={<RSPGame />} />
       <Route path='/typing' element={<Typing />} />
       <Route path='/para' element={<Paragraph />} />
+      <Route path='/tictactoe' element={<TicTacToe />} />
     </Routes>
   )
 }

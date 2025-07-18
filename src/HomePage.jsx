@@ -81,6 +81,12 @@ const HomePage = () => {
           >
             Random Paragraph Generator
           </Link>
+          <Link
+            to="/tictactoe"
+            className="block bg-purple-600 text-white text-lg font-medium text-center py-3 rounded-lg hover:bg-purple-700 shadow-lg"
+          >
+            Tic-Tac-Toe
+          </Link>
         </div>
       </div>
     </div>
